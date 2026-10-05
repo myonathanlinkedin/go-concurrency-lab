@@ -1,0 +1,8 @@
+{
+  "topic": "Actor Model Concurrency Engine with Mailbox Processing",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-05T06:39:39.370164+00:00",
+  "source_file": "main.go"
+}

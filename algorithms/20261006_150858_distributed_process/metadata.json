@@ -1,0 +1,12 @@
+{
+  "topic": "Distributed Process",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-06T15:08:58.909107+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

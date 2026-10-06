@@ -11,8 +11,8 @@ An in-memory reference implementation of **Sliding Window Rate Limiter with Dist
 
 ## Performance Characteristics
 
-* **Time**: `$O(\log N) or O(1)$` average, with `$O(1)$` best-case response under ideal conditions.
-* **Space**: `$O(N) state log$` memory usage.
+* **Time**: `O(log N) or O(1)` average, with `O(1)` best-case response under ideal conditions.
+* **Space**: `O(N) state log` memory usage.
 
 ## Test Harness
 

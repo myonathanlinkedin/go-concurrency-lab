@@ -1,12 +1,12 @@
 # Vector Clock Distributed Event Ordering Mechanism
 
-Modern **Go** reference architecture for **Vector Clock Distributed Event Ordering Mechanism**. Engineered for rigorous algorithmic correctness, high throughput, and bounded memory utilization.
+Core **Go** implementation for **Vector Clock Distributed Event Ordering Mechanism**, structured for computational clarity, explicit data structures, and deterministic unit test coverage.
 
 ### Core Highlights
 * **Language & Standard**: Modern `Go` standard library conventions.
 * **Architecture Pattern**: Designed for `Low-Latency Systems & Memory Layout` using `Contiguous Memory Buffer & Ring Pointers`.
-* **Runtime Overhead**: Memory allocations are kept minimal to avoid allocator contention and preserve CPU cache locality.
-* **Concurrency & Safety**: State transitions adhere to strict ordering guarantees with explicit synchronization fences where necessary.
+* **Runtime Overhead**: Memory allocations are kept minimal to maintain clear data locality and predictable memory bounds.
+* **Concurrency & Safety**: State transitions follow clear ordering guarantees with explicit validation at each phase.
 
 ---
 
@@ -14,9 +14,9 @@ Modern **Go** reference architecture for **Vector Clock Distributed Event Orderi
 
 | Dimension | Bound |
 | :--- | :--- |
-| **Time (Best Case)** | `$O(1)$` |
-| **Time (Worst Case)** | `$O(1) amortized$` |
-| **Auxiliary Space** | `$O(N) bounded$` |
+| **Time (Best Case)** | `O(1)` |
+| **Time (Worst Case)** | `O(1) amortized` |
+| **Auxiliary Space** | `O(N) bounded` |
 
 ---
 
@@ -30,4 +30,4 @@ go run main.go
 
 ---
 
-*Authored & verified by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Systems Engineering Portfolio*
+*Reference implementation verified by [@myonathanlinkedin](https://github.com/myonathanlinkedin)*

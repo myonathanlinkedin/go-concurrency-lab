@@ -1,6 +1,6 @@
 # Golem - Golem Cloud is the agent-native platform for building AI agents and distributed
 
-High-performance **Golem - Golem Cloud is the agent-native platform for building AI agents and distributed** primitive implemented in idiomatic **Go**. Built from scratch using standard library constructs with zero external dependencies.
+Self-contained **Golem - Golem Cloud is the agent-native platform for building AI agents and distributed** algorithmic primitive written in idiomatic **Go**. Built from scratch using standard library constructs with zero external dependencies.
 
 ---
 
@@ -9,16 +9,16 @@ High-performance **Golem - Golem Cloud is the agent-native platform for building
 This module organizes `Golem - Golem Cloud is the agent-native platform for building AI agents and distributed` into an isolated, self-contained unit:
 * **Domain Focus**: `Algorithmic Engineering`
 * **Primary Primitives**: `Standard Memory Primitives`
-* **Memory Strategy**: Buffer boundaries are strictly verified to prevent out-of-bounds access and memory leak hazards.
-* **Correctness Model**: Designed with reentrancy and thread isolation in mind, preventing data races under parallel workloads.
+* **Memory Strategy**: Buffer boundaries and collection indices are explicitly validated to prevent out-of-bounds access.
+* **Correctness Model**: Encapsulates state within isolated data structures, keeping logic self-contained.
 
 ### Asymptotic Complexity
 
 | Metric | Bound | Characteristics |
 | :--- | :---: | :--- |
-| **Best Case Time** | `$O(1)$` | Optimized fast-path execution |
-| **Average / Worst Time** | `$O(N)$` | Deterministic upper bound for generalized workloads |
-| **Space Complexity** | `$O(N)$` | Strict bounds without unconstrained heap growth |
+| **Best Case Time** | `O(1)` | Optimized fast-path execution |
+| **Average / Worst Time** | `O(N)` | Deterministic upper bound for generalized workloads |
+| **Space Complexity** | `O(N)` | Strict bounds without unconstrained heap growth |
 
 ---
 
@@ -37,4 +37,4 @@ go run types.go
 
 ---
 
-<sub>Crafted with modern Go standards • Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin)</sub>
+<sub>Standard Go reference implementation • Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin)</sub>

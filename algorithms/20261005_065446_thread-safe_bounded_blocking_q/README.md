@@ -1,45 +1,40 @@
 # Thread-Safe Bounded Blocking Queue with Condition Variables
 
-> Production-grade, mathematically verified Go implementation of **Thread-Safe Bounded Blocking Queue with Condition Variables**.  
-> Developed and maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
+An in-memory reference implementation of **Thread-Safe Bounded Blocking Queue with Condition Variables** in **Go**, adhering to standard library idioms, clean data structures, and assertion test suites.
 
 ---
 
-## 📐 Mathematical & Architectural Overview
-This module implements the **Thread-Safe Bounded Blocking Queue with Condition Variables** algorithm and data structure using modern, idiomatic **Go** with zero external dependencies.
+## 🏛️ Architecture & Design Decisions
 
-### 🔍 Design Characteristics:
-* **Memory Safety & Layout**: Optimized memory allocation and cache locality for maximum runtime efficiency.
-* **Deterministic Guarantees**: Enforces strict invariant fulfillment across state transitions.
-* **Thread Safety**: Formally resilient against race conditions and concurrency hazards or deterministically isolated.
+This module organizes `Thread-Safe Bounded Blocking Queue with Condition Variables` into an isolated, self-contained unit:
+* **Domain Focus**: `Low-Latency Systems & Memory Layout`
+* **Primary Primitives**: `Contiguous Memory Buffer & Ring Pointers`
+* **Memory Strategy**: Memory allocations are kept minimal to maintain clear data locality and predictable memory bounds.
+* **Correctness Model**: State transitions follow clear ordering guarantees with explicit validation at each phase.
 
----
+### Asymptotic Complexity
 
-## 📊 Big-O Complexity Analysis
-
-| Dimension | Complexity | Performance Profile |
-|---|:---:|---|
-| **Time (Best Case)** | $\mathcal{O}(1)$ to $\mathcal{O}(\log N)$ | Dependent on access patterns and cache hit ratio. |
-| **Time (Average / Worst)** | $\mathcal{O}(N)$ to $\mathcal{O}(N \log N)$ | Asymptotically optimal for generalized workloads. |
-| **Space (Memory Footprint)** | $\mathcal{O}(1)$ to $\mathcal{O}(N)$ | Minimal heap allocation overhead. |
+| Metric | Bound | Characteristics |
+| :--- | :---: | :--- |
+| **Best Case Time** | `O(1)` | Optimized fast-path execution |
+| **Average / Worst Time** | `O(1)` | Deterministic upper bound for generalized workloads |
+| **Space Complexity** | `O(N) bounded` | Strict bounds without unconstrained heap growth |
 
 ---
 
-## 🧪 Verification & Unit Test Driver
-The `main.go` file includes a self-contained test assertion suite validating:
-1. **Happy Path**: Standard operational workflows with verified inputs.
-2. **Edge Cases**: Boundary handling (empty inputs, extreme values, numeric limits).
-3. **Invariants Checking**: State consistency verification across structural mutations.
+## 🧪 Verification Suite
 
----
+The accompanying `main.go` driver executes self-contained verification tests:
+1. **Nominal Flow**: Validates baseline correctness under typical real-world inputs.
+2. **Boundary Conditions**: Exercises extreme edge cases (empty inputs, singletons, capacity limits).
+3. **Invariant Preservation**: Validates internal state consistency throughout mutation lifecycles.
 
-## ⚡ How to Run & Verify Locally
+### Running Locally
 
 ```bash
-# Execute test runner for this module
 go run main.go
 ```
 
 ---
 
-<sub>🔬 *Artifact generated & verified by Universal Polyglot Autonomous Engineering Engine • 2026-10-05 06:54:46 UTC*</sub>
+*Reference implementation verified by [@myonathanlinkedin](https://github.com/myonathanlinkedin)*

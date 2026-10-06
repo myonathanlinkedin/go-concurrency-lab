@@ -1,0 +1,11 @@
+{
+  "topic": "Golem - Golem Cloud is the agent-native platform for building AI agents and distributed",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-06T08:07:20.722480+00:00",
+  "source_file": "types.go",
+  "files": [
+    "types.go"
+  ]
+}

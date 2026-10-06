@@ -1,0 +1,12 @@
+{
+  "topic": "Golang tool to check SPF, DKIM, TLSA, and TLS settings for mailservers",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-06T01:21:25.821877+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

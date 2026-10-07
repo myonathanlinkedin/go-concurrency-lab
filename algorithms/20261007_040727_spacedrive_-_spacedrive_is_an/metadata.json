@@ -1,0 +1,12 @@
+{
+  "topic": "Spacedrive - Spacedrive is an open source cross-platform file explorer, powered by a",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-07T04:07:27.666199+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

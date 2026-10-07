@@ -2,7 +2,7 @@
 > Scalable distributed patterns, channel architectures, worker pools, and lock-free algorithms. Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/myonathanlinkedin/go-concurrency-lab/actions)
-[![Total Modules](https://img.shields.io/badge/Algorithms-20%20Modules-blue?style=for-the-badge&logo=go)](https://github.com/myonathanlinkedin/go-concurrency-lab)
+[![Total Modules](https://img.shields.io/badge/Algorithms-21%20Modules-blue?style=for-the-badge&logo=go)](https://github.com/myonathanlinkedin/go-concurrency-lab)
 [![Architect](https://img.shields.io/badge/Architect-@myonathanlinkedin-purple?style=for-the-badge&logo=linkedin)](https://github.com/myonathanlinkedin)
 [![Verified](https://img.shields.io/badge/Tests-100%25%20Verified-success?style=for-the-badge)](https://github.com/myonathanlinkedin/go-concurrency-lab)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -33,6 +33,7 @@
 | 18 | **Huffman Coding Lossless Compression and Decompression** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261006_184811_huffman_coding_lossless_compre/core.go) |
 | 19 | **Conflict-free Replicated Data Type (CRDT) PN-Counter** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261006_220214_conflict-free_replicated_data/core.go) |
 | 20 | **Gossip Protocol Node Failure Detector** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261007_030438_gossip_protocol_node_failure_d/engine.go) |
+| 21 | **Spacedrive - Spacedrive is an open source cross-platform file explorer, powered by a** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261007_040727_spacedrive_-_spacedrive_is_an/core.go) |
 
 ---
 
@@ -61,4 +62,4 @@ go test -v ./...
 
 ---
 
-<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-07 03:04 UTC*</sub>
+<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-07 04:07 UTC*</sub>

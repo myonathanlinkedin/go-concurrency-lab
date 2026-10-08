@@ -1,0 +1,13 @@
+{
+  "topic": "Vald - Vald. A Highly Scalable Distributed Vector Search Engine",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-08T06:01:51.771482+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

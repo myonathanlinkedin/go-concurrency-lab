@@ -1,0 +1,12 @@
+{
+  "topic": "Vector Clock Distributed Event Ordering Mechanism",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-08T00:02:37.678938+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

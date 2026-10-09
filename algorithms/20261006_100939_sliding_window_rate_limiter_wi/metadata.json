@@ -1,0 +1,12 @@
+{
+  "topic": "Sliding Window Rate Limiter with Distributed Token Bucket",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-06T10:09:39.945167+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

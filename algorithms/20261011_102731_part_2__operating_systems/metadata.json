@@ -1,0 +1,13 @@
+{
+  "topic": "Part 2 \u2014 Operating Systems",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-11T10:27:31.188885+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

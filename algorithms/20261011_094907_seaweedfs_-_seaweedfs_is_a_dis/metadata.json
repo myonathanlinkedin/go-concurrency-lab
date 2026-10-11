@@ -1,0 +1,12 @@
+{
+  "topic": "Seaweedfs - SeaweedFS is a distributed storage system for object storage (S3), file",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-11T09:49:07.516304+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

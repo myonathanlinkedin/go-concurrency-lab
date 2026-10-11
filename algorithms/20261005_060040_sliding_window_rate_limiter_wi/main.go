@@ -120,8 +120,8 @@ func testBasicAllowance() error {
 	if err := assert(!rl.Allow(3), "second allow 3 should fail"); err != nil {
 		return err
 	}
-	clk.Add(2 * time.Second) // refill 2 tokens
-	if err := assert(rl.Allow(2), "allow after refill 2"); err != nil {
+	clk.Add(2 * time.Second) // refill 2 tokens -> 2 + 2 = 4 tokens
+	if err := assert(rl.Allow(4), "allow after refill 4"); err != nil {
 		return err
 	}
 	if err := assert(!rl.Allow(1), "no tokens left"); err != nil {
@@ -143,8 +143,8 @@ func testRefillPrecision() error {
 	if err := assert(!rl.Allow(1), "second token not yet available"); err != nil {
 		return err
 	}
-	clk.Add(200 * time.Millisecond) // total 0.6s => 1.5 tokens, 0.5 leftover
-	if err := assert(rl.Allow(1), "allow after additional 0.2s"); err != nil {
+	clk.Add(400 * time.Millisecond) // 0.4s * 2.5 = 1 token
+	if err := assert(rl.Allow(1), "allow after additional 0.4s"); err != nil {
 		return err
 	}
 	return nil

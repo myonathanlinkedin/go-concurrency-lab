@@ -2,7 +2,7 @@
 > Scalable distributed patterns, channel architectures, worker pools, and lock-free algorithms. Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/myonathanlinkedin/go-concurrency-lab/actions)
-[![Total Modules](https://img.shields.io/badge/Algorithms-28%20Modules-blue?style=for-the-badge&logo=go)](https://github.com/myonathanlinkedin/go-concurrency-lab)
+[![Total Modules](https://img.shields.io/badge/Algorithms-29%20Modules-blue?style=for-the-badge&logo=go)](https://github.com/myonathanlinkedin/go-concurrency-lab)
 [![Architect](https://img.shields.io/badge/Architect-@myonathanlinkedin-purple?style=for-the-badge&logo=linkedin)](https://github.com/myonathanlinkedin)
 [![Verified](https://img.shields.io/badge/Tests-100%25%20Verified-success?style=for-the-badge)](https://github.com/myonathanlinkedin/go-concurrency-lab)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -41,6 +41,7 @@
 | 26 | **Sliding Window Rate Limiter with Distributed Token Bucket** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261011_030524_sliding_window_rate_limiter_wi/core.go) |
 | 27 | **Kactl** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261011_102440_kactl/core.go) |
 | 28 | **Part 2 — Operating Systems** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261011_102731_part_2__operating_systems/engine.go) |
+| 29 | **Day 30 — CAP Theorem — Distributed System-এর সবচেয়ে গুরুত্বপূর্ণ সত্য** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261011_120158_day_30__cap_theorem__distribut/engine.go) |
 
 ---
 
@@ -69,4 +70,4 @@ go test -v ./...
 
 ---
 
-<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-11 10:27 UTC*</sub>
+<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-11 12:02 UTC*</sub>

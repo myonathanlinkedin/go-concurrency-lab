@@ -1,0 +1,13 @@
+{
+  "topic": "Compiler bootstrapping depends on more than you might think",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-14T11:01:36.662241+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

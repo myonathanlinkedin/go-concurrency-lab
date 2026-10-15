@@ -2,7 +2,7 @@
 > Scalable distributed patterns, channel architectures, worker pools, and lock-free algorithms. Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/myonathanlinkedin/go-concurrency-lab/actions)
-[![Total Modules](https://img.shields.io/badge/Algorithms-33%20Modules-blue?style=for-the-badge&logo=go)](https://github.com/myonathanlinkedin/go-concurrency-lab)
+[![Total Modules](https://img.shields.io/badge/Algorithms-34%20Modules-blue?style=for-the-badge&logo=go)](https://github.com/myonathanlinkedin/go-concurrency-lab)
 [![Architect](https://img.shields.io/badge/Architect-@myonathanlinkedin-purple?style=for-the-badge&logo=linkedin)](https://github.com/myonathanlinkedin)
 [![Verified](https://img.shields.io/badge/Tests-100%25%20Verified-success?style=for-the-badge)](https://github.com/myonathanlinkedin/go-concurrency-lab)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -54,6 +54,7 @@
 | 31 | **Gossip Protocol Node Failure Detector** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261013_050111_gossip_protocol_node_failure_d/engine.go) |
 | 32 | **Compiler bootstrapping depends on more than you might think** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261014_110136_compiler_bootstrapping_depends/engine.go) |
 | 33 | **Sliding Window Rate Limiter with Distributed Token Bucket** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261015_064110_sliding_window_rate_limiter_wi/engine.go) |
+| 34 | **Sliding Window Rate Limiter with Distributed Token Bucket** | go | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261015_090129_sliding_window_rate_limiter_wi/core.go) |
 
 ---
 
@@ -82,4 +83,4 @@ go test -v ./...
 
 ---
 
-<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-15 06:41 UTC*</sub>
+<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-15 09:01 UTC*</sub>

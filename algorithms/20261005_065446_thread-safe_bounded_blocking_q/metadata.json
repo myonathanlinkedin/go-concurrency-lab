@@ -1,0 +1,8 @@
+{
+  "topic": "Thread-Safe Bounded Blocking Queue with Condition Variables",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-05T06:54:46.526937+00:00",
+  "source_file": "main.go"
+}

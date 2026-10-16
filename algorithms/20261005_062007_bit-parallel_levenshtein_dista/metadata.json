@@ -1,0 +1,8 @@
+{
+  "topic": "Bit-Parallel Levenshtein Distance Matrix Engine",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-05T06:20:07.603680+00:00",
+  "source_file": "main.go"
+}

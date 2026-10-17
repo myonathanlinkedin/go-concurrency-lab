@@ -1,0 +1,12 @@
+{
+  "topic": "Red-Black Tree with Deterministic Balance Assertions",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-17T09:01:17.479416+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

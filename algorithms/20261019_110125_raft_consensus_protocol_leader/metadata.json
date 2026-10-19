@@ -1,0 +1,12 @@
+{
+  "topic": "Raft Consensus Protocol Leader Election State Engine",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-19T11:01:25.756316+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

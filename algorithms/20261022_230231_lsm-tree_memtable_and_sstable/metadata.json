@@ -1,0 +1,12 @@
+{
+  "topic": "LSM-Tree MemTable and SSTable Flush Compaction Engine",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-22T23:02:31.502975+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

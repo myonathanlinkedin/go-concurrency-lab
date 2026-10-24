@@ -1,0 +1,13 @@
+{
+  "topic": "Retries Are a Distributed Systems Bug Waiting to Happen: Designing Idempotent APIs",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-10-24T11:01:50.042687+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

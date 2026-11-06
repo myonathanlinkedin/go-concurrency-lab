@@ -1,0 +1,13 @@
+{
+  "topic": "Finite State Machine Tokenizer and Lexical Parser",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-06T13:02:07.831029+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

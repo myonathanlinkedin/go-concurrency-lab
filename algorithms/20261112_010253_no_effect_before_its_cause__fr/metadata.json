@@ -1,0 +1,12 @@
+{
+  "topic": "No Effect Before Its Cause: From Einstein to Lamport",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-12T01:02:53.668351+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

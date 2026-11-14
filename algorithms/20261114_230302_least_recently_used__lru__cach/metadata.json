@@ -1,0 +1,12 @@
+{
+  "topic": "Least Recently Used (LRU) Cache with Doubly Linked List",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-14T23:03:02.464240+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

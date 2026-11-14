@@ -1,0 +1,13 @@
+{
+  "topic": "Count-Min Sketch Heavy Hitters Frequency Estimator",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-14T08:01:30.513737+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

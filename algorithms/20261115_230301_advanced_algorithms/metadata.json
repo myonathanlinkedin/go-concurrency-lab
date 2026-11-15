@@ -1,0 +1,12 @@
+{
+  "topic": "Advanced Algorithms",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-15T23:03:01.407165+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

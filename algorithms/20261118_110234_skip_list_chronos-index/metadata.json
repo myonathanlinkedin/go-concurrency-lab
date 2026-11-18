@@ -1,0 +1,13 @@
+{
+  "topic": "Skip List Chronos-Index",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-18T11:02:34.932065+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

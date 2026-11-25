@@ -1,0 +1,13 @@
+{
+  "topic": "Custom Buddy Memory Allocation System",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-25T23:02:28.579704+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

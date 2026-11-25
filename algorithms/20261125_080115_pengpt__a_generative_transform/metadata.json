@@ -1,0 +1,12 @@
+{
+  "topic": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-25T08:01:15.813853+00:00",
+  "source_file": "main.go",
+  "files": [
+    "core.go",
+    "main.go"
+  ]
+}

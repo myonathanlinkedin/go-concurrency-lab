@@ -1,0 +1,13 @@
+{
+  "topic": "Conflict-free Replicated Data Type (CRDT) PN-Counter",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-26T19:02:15.954214+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}

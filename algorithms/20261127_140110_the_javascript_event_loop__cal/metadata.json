@@ -1,0 +1,13 @@
+{
+  "topic": "The JavaScript Event Loop: Call Stack, Task Queue & Microtasks",
+  "language": "Go",
+  "extension": ".go",
+  "category": "go",
+  "timestamp_utc": "2026-11-27T14:01:10.760824+00:00",
+  "source_file": "main.go",
+  "files": [
+    "types.go",
+    "engine.go",
+    "main.go"
+  ]
+}
